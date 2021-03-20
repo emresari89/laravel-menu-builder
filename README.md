@@ -1,21 +1,21 @@
 # Laravel Drag and Drop menu editor like wordpress
-[![Latest Stable Version](https://poser.pugx.org/enresari89/laravel-menu/v/stable)](https://packagist.org/packages/enresari89/laravel-menu) [![Latest 
-Unstable Version](https://poser.pugx.org/enresari89/laravel-menu/v/unstable)](https://packagist.org/packages/enresari89/laravel-menu) [![Total 
+[![Latest Stable Version](https://poser.pugx.org/emresari89/laravel-menu/v/stable)](https://packagist.org/packages/emresari89/laravel-menu) [![Latest 
+Unstable Version](https://poser.pugx.org/emresari89/laravel-menu/v/unstable)](https://packagist.org/packages/emresari89/laravel-menu) [![Total 
 Downloads]
-(https://poser.pugx.org/enresari89/laravel-menu/downloads)](https://packagist.org/packages/enresari89/laravel-menu) [![Monthly Downloads]
+(https://poser.pugx.org/emresari89/laravel-menu/downloads)](https://packagist.org/packages/emresari89/laravel-menu) [![Monthly Downloads]
 (https://poser.
 pugx.
-org/enresari89/laravel-menu/d/monthly)](https://packagist.org/packages/enresari89/laravel-menu)
+org/emresari89/laravel-menu/d/monthly)](https://packagist.org/packages/emresari89/laravel-menu)
 
 forked from https://github.com/lordmacu/wmenu
-![Laravel drag and drop menu](https://raw.githubusercontent.com/enresari89/wmenu-builder/master/screenshot.png)
+![Laravel drag and drop menu](https://raw.githubusercontent.com/emresari89/wmenu-builder/master/screenshot.png)
 
 ### Installation
 
 1. Run
 
 ```php
-composer require enresari89/laravel-menu
+composer require emresari89/laravel-menu
 ```
 
 **_Step 2 & 3 are optional if you are using laravel 5.5_**
@@ -186,4 +186,4 @@ you can edit the menu interface in **_resources/views/vendor/wmenu/menu-html.bla
 - Tested with laravel 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.x, 7.x
 
 ### KNOWN ISSUES
-- Not working with RTL websites [#21](https://github.com/enresari89/wmenu-builder/issues/21) (pull requests are welcome)
+- Not working with RTL websites [#21](https://github.com/emresari89/wmenu-builder/issues/21) (pull requests are welcome)
