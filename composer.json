@@ -1,0 +1,33 @@
+{
+    "name": "emresari89/laravel-menu",
+    "description": "drag and drop menu generator like wordpress for laravel 8",
+    "keywords": ["Laravel", "Menu", "Wordpress", "Builder"],
+    "authors": [
+    	{
+            "name": "Emre Sarıoğlu",
+            "email": "admin@emresarioglu.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "5.* || 6.* || 7.* || 8.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Emresari\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emresari\\Menu\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Emresari\\Menu\\Facades\\Menu"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
