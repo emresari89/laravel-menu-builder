@@ -1,14 +1,8 @@
 # Laravel Drag and Drop menu editor like wordpress
-[![Latest Stable Version](https://poser.pugx.org/emresari89/laravel-menu/v/stable)](https://packagist.org/packages/emresari89/laravel-menu) [![Latest 
-Unstable Version](https://poser.pugx.org/emresari89/laravel-menu/v/unstable)](https://packagist.org/packages/emresari89/laravel-menu) [![Total 
-Downloads]
-(https://poser.pugx.org/emresari89/laravel-menu/downloads)](https://packagist.org/packages/emresari89/laravel-menu) [![Monthly Downloads]
-(https://poser.
-pugx.
-org/emresari89/laravel-menu/d/monthly)](https://packagist.org/packages/emresari89/laravel-menu)
-
-forked from https://github.com/lordmacu/wmenu
-![Laravel drag and drop menu](https://raw.githubusercontent.com/emresari89/wmenu-builder/master/screenshot.png)
+[![Latest Stable Version](https://poser.pugx.org/emresari89/laravel-menu/v/stable)](https://packagist.org/packages/emresari89/laravel-menu) 
+[![Latest Unstable Version](https://poser.pugx.org/emresari89/laravel-menu/v/unstable)](https://packagist.org/packages/emresari89/laravel-menu) 
+[![Total Downloads](https://poser.pugx.org/emresari89/laravel-menu/downloads)](https://packagist.org/packages/emresari89/laravel-menu) 
+[![Monthly Downloads](https://poser.pugx.org/emresari89/laravel-menu/d/monthly)](https://packagist.org/packages/emresari89/laravel-menu)
 
 ### Installation
 
@@ -18,27 +12,16 @@ forked from https://github.com/lordmacu/wmenu
 composer require emresari89/laravel-menu
 ```
 
-**_Step 2 & 3 are optional if you are using laravel 5.5_**
-
-2. Add the following class, to "providers" array in the file config/app.php (optional on laravel 5.5)
-
 ```php
 Emresari\Menu\MenuServiceProvider::class,
 ```
-
-3. add facade in the file config/app.php (optional on laravel 5.5)
-
-```php
-'Menu' => Emresari\Menu\Facades\Menu::class,
-```
-
-4. Run publish
+ 2. Run publish
 
 ```php
 php artisan vendor:publish --provider="Emresari\Menu\MenuServiceProvider"
 ```
 
-5. Configure (optional) in **_config/menu.php_** :
+3. Configure (optional) in **_config/menu.php_** :
 
 - **_CUSTOM MIDDLEWARE:_** You can add you own middleware
 - **_TABLE PREFIX:_** By default this package will create 2 new tables named "menus" and "menu_items" but you can still add your own table prefix avoiding conflict with existing table
@@ -46,7 +29,7 @@ php artisan vendor:publish --provider="Emresari\Menu\MenuServiceProvider"
 - **_Custom routes_** If you want to edit the route path you can edit the field
 - **_Role Access_** If you want to enable roles (permissions) on menu items
 
-6. Run migrate
+4. Run migrate
 
 ```php
 php artisan migrate
@@ -176,14 +159,4 @@ $menuList = Menu::getByName('Admin');
 ### Customization
 
 you can edit the menu interface in **_resources/views/vendor/wmenu/menu-html.blade.php_**
-
-### Credits
-
-- [wmenu](https://github.com/lordmacu/wmenu) laravel package menu like wordpress
-
-### Compatibility
-
-- Tested with laravel 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.x, 7.x
-
-### KNOWN ISSUES
-- Not working with RTL websites [#21](https://github.com/emresari89/wmenu-builder/issues/21) (pull requests are welcome)
+  
